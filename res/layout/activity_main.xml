@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    >
+    <LinearLayout android:id="@+id/more_holder"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+    	android:layout_alignParentTop="true"
+    	android:layout_width="200dp"
+    	android:layout_height="match_parent"
+    	android:background="#303030"
+    	android:visibility="gone"
+        >          
+        <EditText android:id="@+id/goto_subreddit"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:hint="Goto Subreddit"
+            android:textColor="#e1e2e3"
+            android:singleLine="true"
+            android:background="@drawable/textfield_activated_holo_light"
+            />        
+	    <ListView android:id="@+id/available_subreddits"        
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"    	
+	    	android:divider="#202020"
+	    	android:dividerHeight="1dp"
+	    	android:scrollbars="none"	    	
+	    	android:cacheColorHint="#00000000"
+	        >        
+	    </ListView>
+    </LinearLayout>    
+	<android.support.v4.view.ViewPager
+		android:id="@+id/fragments_holder"
+		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_toRightOf="@+id/more_holder"
+    	android:layout_alignParentTop="true"
+    	/>    
+</RelativeLayout>
