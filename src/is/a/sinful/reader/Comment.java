@@ -3,6 +3,12 @@ package is.a.sinful.reader;
 import android.text.Html;
 import android.text.Spanned;
 
+/**
+* Comment
+*
+* Stores data related to comments, and also helps in rendering them
+* @author Hathibelgal
+*/
 public class Comment {
 	String htmlText;
 	String author;

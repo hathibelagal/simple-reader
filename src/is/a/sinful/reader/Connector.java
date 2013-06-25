@@ -14,6 +14,12 @@ import android.graphics.Bitmap.CompressFormat;
 import android.graphics.Rect;
 import android.util.Log;
 
+/**
+* This class establishes connections to Reddit and fetches the JSON data
+* or the image data
+* @author Hathibelagal
+*/
+
 public class Connector {
 		
 	public static HttpURLConnection getConnection(String url){		

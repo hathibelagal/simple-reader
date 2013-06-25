@@ -18,6 +18,15 @@ import android.os.Environment;
 import android.support.v4.util.LruCache;
 import android.util.Log;
 
+/**
+* CacheManager
+*
+* This class caches data fetched from the network. It stores it on the SD Card.
+* It is also responsible for clearing up data that is too old.
+*
+* @author Hathibelagal
+* @version 1.0
+*/
 public class CacheManager {
 	
 	public static String permanentCacheURL="http://www.reddit.com/reddits.json?limit=40";	

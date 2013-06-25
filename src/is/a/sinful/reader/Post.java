@@ -3,6 +3,12 @@ package is.a.sinful.reader;
 import android.text.Html;
 import android.text.Spanned;
 
+/**
+* Post
+*
+* This class stores all data related to posts
+* @author Hathibelagal
+*/
 public class Post {
 	String subreddit;
 	String title;

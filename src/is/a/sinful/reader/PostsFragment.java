@@ -22,6 +22,10 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 
+/**
+* This class renders all posts of a given subreddit.
+* @author Hathibelagal
+*/
 public class PostsFragment extends SherlockFragment {
 	
 	static final String SUBREDDIT="ARGUMENT_SUBREDDIT";

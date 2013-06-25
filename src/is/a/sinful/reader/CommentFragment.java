@@ -18,6 +18,12 @@ import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
 
+/**
+* CommentFragment
+*
+* This class renders comments of a given post.
+* @author Hathibelagal
+*/
 public class CommentFragment extends SherlockFragment {
 	static final String PERMALINK="ARGUMENT_PERMALINK";
 	
